@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ViralPitch - Our Blogs</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">ViralPitch</div>
+        <div class="nav-links">
+          <a href="#">Platform</a>
+          <a href="#">Solutions</a>
+          <a href="#">Resources</a>
+          <a href="#">Services</a>
+          <a href="#">Company</a>
+        </div>
+        <div class="nav-buttons">
+          <button class="btn btn-primary">Goal Testing</button>
+          <button class="btn btn-outline">Logout</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <main class="main-content">
+        <div class="page-header">
+          <h1 class="page-title">Our Blogs</h1>
+          <p class="page-subtitle">
+            Stay ahead in influencer marketing with our newest posts! From
+            strategic tips to industry trends, we're here to keep you informed
+            and inspired.
+          </p>
+          <a href="#" class="view-all">View All</a>
+        </div>
+        <div>
+          <div class="blog-first-grid" id="blogfirst">
+            <div class="loading">Loading blogs...</div>
+          </div>
+        </div>
+        <div>
+          <div class="blog-grid" id="blogGrid">
+            <div class="loading">Loading blogs...</div>
+          </div>
+        </div>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">CATEGORIES</h3>
+          <div class="list">
+            <div class="item"><a href="#">ALL</a></div>
+            <div class="item"><a href="#">Travel</a></div>
+            <div class="item"><a href="#">Health, Sports & Fitness</a></div>
+            <div class="item"><a href="#">Finance</a></div>
+            <div class="item"><a href="#">Infotainment</a></div>
+            <div class="item"><a href="#">Lifestyle</a></div>
+            <div class="item"><a href="#">Sports</a></div>
+            <div class="item"><a href="#">Entertainment</a></div>
+            <div class="item"><a href="#">Fashion</a></div>
+            <div class="item"><a href="#">Technology</a></div>
+            <div class="item"><a href="#">Food</a></div>
+            <div class="item"><a href="#">Photography</a></div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Most Popular Blogs</h3>
+          <div id="popularBlogs">
+            <div class="loading">Loading popular blogs...</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
