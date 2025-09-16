@@ -108,9 +108,9 @@ document.addEventListener("DOMContentLoaded", function() {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      https://gist.githubusercontent.com/your-username/gist-id/raw/mockdata.json
-      <script src="https://gist.github.com/AnkitDhakad3320/4db6d00cd4f86cc5fdc0c65bbcdaea23.js"></script>
-      'Authorization': 'Bearer QUJGU0dFWFRcU1NFWEVTQjAwNDU6RjY0MTRGQzAjNzY0NCQ0NTk5IUEzOUUjMkY4RDdFNjA0RTlBQkNCUA=='
+      //https://gist.githubusercontent.com/your-username/gist-id/raw/mockdata.json
+      //<script src="https://gist.github.com/AnkitDhakad3320/4db6d00cd4f86cc5fdc0c65bbcdaea23.js"></script>
+      //'Authorization': 'Bearer QUJGU0dFWFRcU1NFWEVTQjAwNDU6RjY0MTRGQzAjNzY0NCQ0NTk5IUEzOUUjMkY4RDdFNjA0RTlBQkNCUA=='
     },
     body: JSON.stringify({ type: 'blog_static' })
   })
