@@ -104,16 +104,7 @@ function createPopularPost(blog, index) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  fetch('https://gist.github.com/AnkitDhakad3320/4db6d00cd4f86cc5fdc0c65bbcdaea23/raw/mockdata.json', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      //https://gist.githubusercontent.com/your-username/gist-id/raw/mockdata.json
-      //<script src="https://gist.github.com/AnkitDhakad3320/4db6d00cd4f86cc5fdc0c65bbcdaea23.js"></script>
-      // 'Authorization': 'Bearer QUJGU0dFWFRcU1NFWEVTQjAwNDU6RjY0MTRGQzAjNzY0NCQ0NTk5IUEzOUUjMkY4RDdFNjA0RTlBQkNCUA=='
-    },
-    body: JSON.stringify({ type: 'blog_static' })
-  })
+  fetch('https://gist.githubusercontent.com/AnkitDhakad3320/4db6d00cd4f86cc5fdc0c65bbcdaea23/raw/mockdata.json')
   .then(response => response.json())
   .then(res => {
     const blogGrid = document.getElementById("blogGrid");
